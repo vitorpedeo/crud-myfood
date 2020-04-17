@@ -1,0 +1,131 @@
+.modal {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.btn-modal {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.update-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.img-update {
+  height: 100%;
+  width: 50%;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  background: url("../../assets/FoodsTable.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.update-form {
+  padding: 20px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.update-form img {
+  width: 300px;
+  height: 107px;
+  margin-bottom: 20px;
+}
+
+.id-update-container {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.id-update-container input,
+.update-form input {
+  height: 50px;
+  font-size: 20px;
+  border: 1px solid #bebebe;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 0 18px;
+}
+
+.id-update-container input {
+  width: 20%;
+}
+
+.input-update {
+  margin-bottom: 20px;
+  align-self: flex-start;
+  width: 80%;
+}
+
+.id-update-container p {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.id-update-container .smile-icon {
+  margin-left: 7px;
+}
+
+.btns-update {
+  margin-top: 30px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btns-update button {
+  padding: 15px 25px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.btn-update-edit {
+  background-color: #21bf73;
+}
+
+.btn-update-edit:hover {
+  opacity: 0.8;
+}
+
+.btn-update-cancel {
+  background-color: #dd2c00;
+}
+
+.btn-update-cancel:hover {
+  background-color: #84142d;
+}

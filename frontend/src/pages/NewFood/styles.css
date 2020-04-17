@@ -1,0 +1,96 @@
+.new-food-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.new-food-main {
+  display: flex;
+  max-width: 1120px;
+  width: 100%;
+  background-color: #f5f5f5;
+  border-radius: 15px;
+}
+
+.new-food-img {
+  width: 50%;
+  background: url("../../assets/Kitchen.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.new-food-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.new-food-form {
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.new-food-input {
+  height: 50px;
+  width: 80%;
+  margin-bottom: 20px;
+  font-size: 20px;
+  border: 1px solid #bebebe;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 0 18px;
+}
+
+.new-food-form textarea {
+  width: 80%;
+  resize: none;
+  margin-bottom: 20px;
+  font-size: 20px;
+  border: 1px solid #bebebe;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 18px;
+}
+
+.btns-new-food {
+  margin: 10px 0;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link-to-home, .btn-create-food {
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.link-to-home {
+    background-color: #dd2c00;
+}
+
+.link-to-home:hover {
+    background-color: #84142d;
+}
+
+.btn-create-food {
+    background-color: #21bf73;
+}
+
+.btn-create-food:hover {
+    opacity: 0.8;
+}

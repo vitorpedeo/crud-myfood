@@ -1,0 +1,96 @@
+.login-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+.main {
+    background-color: #F5F5F5;
+    max-width: 1120px;
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+}
+
+.content {
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content img {
+    width: 300px;
+    height: 107px;
+}
+
+.text-container {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 30px;
+    text-align: left;
+}
+.text-container h1 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.text-container p {
+   color: #808080;
+}
+
+.content input::placeholder {
+    color: #606060;
+}
+
+.content button {
+    width: 75%;
+    padding: 10px;
+    margin: 20px 0 40px 0;
+    border: none;
+    border-radius: 4px;
+    background-color: #21BF73;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.content button:hover {
+    opacity: 0.8;
+}
+
+.register-link {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.register-link p {
+    margin-right: 15px;
+}
+
+.image {
+    width: 50%;
+    background: url('../../assets/Food.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
