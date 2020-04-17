@@ -1,8 +1,13 @@
 <h1 align="center" >
- ![](https://i.imgur.com/ame4ufE.png)
- ![](https://img.shields.io/badge/madeby-vitorpedeo-brightgreen)
- ![](https://img.shields.io/github/repo-size/vitorpedeo/crud-myfood)
+ <img src="https://i.imgur.com/ame4ufE.png" alt="MyFood" />
 </h1>
+
+<p align="center" >
+ <a href="https://www.linkedin.com/in/vitor-pereira-309a7319b/">
+  <img src="https://img.shields.io/badge/madeby-VitorPereira-brightgreen" />
+ </a>
+ <img src="https://img.shields.io/github/repo-size/vitorpedeo/crud-myfood" />
+</p>
 
 # MyFood :pizza:
 
